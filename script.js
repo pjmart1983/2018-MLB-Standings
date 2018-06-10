@@ -1179,11 +1179,11 @@ scores.push(
     "home": "Los Angeles Dodgers",
     "aruns": 5,
     "hruns": 3,
-    "ahits": 13,
-    "hhits": 4,
+    "ahits": 14,
+    "hhits": 6,
     "aerrors": 0,
     "herrors": 1,
-    "inning": "Top 8"
+    "inning": "Final"
   },
   //6-10-18
   {
