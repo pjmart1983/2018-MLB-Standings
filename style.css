@@ -7,6 +7,7 @@ img {
 
 body {
   background-color: #660825;
+  color:white;
 }
 
 p {
@@ -52,4 +53,65 @@ img:hover {
 
 #division {
   width: 60%;
+}
+.row{
+    display:block;
+}
+
+.wide{
+  width: 70%;
+}
+
+.thin{
+  width: 10%;
+}
+
+#date{
+  color: white; 
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+#back{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: helvetica;
+}
+
+#back:hover{
+    cursor:pointer;
+    background-color: white;
+    color: black;
+}
+
+#forward{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: helvetica;
+}
+
+#forward:hover{
+    cursor:pointer;
+    background-color: white;
+    color: black;
+}
+
+#scoreboard{
+    align-items: center;
+}
+
+.link{
+    font-size: 16px;
+    color: white;
+    margin: 10px;
+}
+
+.link:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
 }
