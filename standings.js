@@ -1191,22 +1191,22 @@ scores.push(
     "home": "Chicago Cubs",
     "aruns": 7,
     "hruns": 1,
-    "ahits": 8,
+    "ahits": 9,
     "hhits": 4,
     "aerrors": 2,
     "herrors": 0,
-    "inning": "Top 9"
+    "inning": "Final"
   },
   {
     "away": "San Francisco Giants",
     "home": "Washington Nationals",
     "aruns": 2,
     "hruns": 0,
-    "ahits": 3,
-    "hhits": 2,
+    "ahits": 5,
+    "hhits": 3,
     "aerrors": 0,
     "herrors": 0,
-    "inning": "Top 5"
+    "inning": "Final"
   },
   {
     "away": "Milwaukee Brewers",
@@ -1267,12 +1267,12 @@ scores.push(
     "away": "New York Yankees",
     "home": "New York Mets",
     "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
+    "hruns": 2,
+    "ahits": 3,
+    "hhits": 5,
     "aerrors": 0,
-    "herrors": 0,
-    "inning": ""
+    "herrors": 2,
+    "inning": "Final"
   },
   {
     "away": "Seattle Mariners",
@@ -1299,13 +1299,13 @@ scores.push(
   {
     "away": "Houston Astros",
     "home": "Texas Rangers",
-    "aruns": 7,
-    "hruns": 6,
-    "ahits": 11,
-    "hhits": 14,
+    "aruns": 8,
+    "hruns": 7,
+    "ahits": 12,
+    "hhits": 16,
     "aerrors": 1,
     "herrors": 1,
-    "inning": "Bot 7"
+    "inning": "Final"
   },
   {
     "away": "Los Angeles Angels",
@@ -1321,37 +1321,36 @@ scores.push(
   {
     "away": "Arizona Diamondbacks",
     "home": "Colorado Rockies",
-    "aruns": 6,
-    "hruns": 2,
-    "ahits": 6,
-    "hhits": 5,
+    "aruns": 8,
+    "hruns": 3,
+    "ahits": 10,
+    "hhits": 8,
     "aerrors": 0,
     "herrors": 0,
-    "inning": "Top 7"
+    "inning": "Final"
   },
   {
     "away": "Kansas City Royals",
     "home": "Oakland Athletics",
     "aruns": 2,
-    "hruns": 2,
-    "ahits": 5,
-    "hhits": 5,
-    "aerrors": 0,
+    "hruns": 3,
+    "ahits": 7,
+    "hhits": 7,
+    "aerrors": 1,
     "herrors": 2,
-    "inning": "Top 6"
+    "inning": "Final"
   },
   {
     "away": "Atlanta Braves",
     "home": "Los Angeles Dodgers",
     "aruns": 2,
-    "hruns": 3,
-    "ahits": 4,
-    "hhits": 5,
+    "hruns": 7,
+    "ahits": 7,
+    "hhits": 10,
     "aerrors": 0,
     "herrors": 0,
-    "inning": "Top 5"
-  },
-);
+    "inning": "Final"
+  };
 
 const homeScores = () => {
   for (i = 0; i < scores.length; i++) {
