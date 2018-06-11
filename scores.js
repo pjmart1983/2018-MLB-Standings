@@ -2151,84 +2151,84 @@ let scoresJun9 = [
     "inning": "Final"
   },
 ];
-
+    
 let scoresJun10 = [
   {
     "away": "Pittsburgh Pirates",
     "home": "Chicago Cubs",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
-    "aerrors": 0,
+    "aruns": 7,
+    "hruns": 1,
+    "ahits": 8,
+    "hhits": 4,
+    "aerrors": 2,
     "herrors": 0,
-    "inning": ""
+    "inning": "Top 9"
   },
   {
     "away": "San Francisco Giants",
     "home": "Washington Nationals",
-    "aruns": 0,
+    "aruns": 2,
     "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
+    "ahits": 3,
+    "hhits": 2,
     "aerrors": 0,
     "herrors": 0,
-    "inning": ""
+    "inning": "Top 5"
   },
   {
     "away": "Milwaukee Brewers",
     "home": "Philadelphia Phillies",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
-    "aerrors": 0,
+    "aruns": 3,
+    "hruns": 4,
+    "ahits": 8,
+    "hhits": 4,
+    "aerrors": 2,
     "herrors": 0,
-    "inning": ""
+    "inning": "Final"
   },
   {
     "away": "Baltimore Orioles",
     "home": "Toronto Blue Jays",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
+    "aruns": 3,
+    "hruns": 13,
+    "ahits": 7,
+    "hhits": 19,
     "aerrors": 0,
     "herrors": 0,
-    "inning": ""
+    "inning": "Final"
   },
   {
     "away": "Chicago White Sox",
     "home": "Boston Red Sox",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
-    "aerrors": 0,
-    "herrors": 0,
-    "inning": ""
+    "aruns": 5,
+    "hruns": 2,
+    "ahits": 8,
+    "hhits": 7,
+    "aerrors": 1,
+    "herrors": 2,
+    "inning": "Final"
   },
   {
     "away": "Cleveland Indians",
     "home": "Detroit Tigers",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
-    "aerrors": 0,
-    "herrors": 0,
-    "inning": ""
+    "aruns": 9,
+    "hruns": 2,
+    "ahits": 14,
+    "hhits": 5,
+    "aerrors": 1,
+    "herrors": 3,
+    "inning": "Final"
   },
   {
     "away": "San Diego Padres",
     "home": "Miami Marlins",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
+    "aruns": 3,
+    "hruns": 1,
+    "ahits": 8,
+    "hhits": 2,
     "aerrors": 0,
     "herrors": 0,
-    "inning": ""
+    "inning": "Final"
   },
   {
     "away": "New York Yankees",
@@ -2244,79 +2244,79 @@ let scoresJun10 = [
   {
     "away": "Seattle Mariners",
     "home": "Tampa Bay Rays",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
+    "aruns": 5,
+    "hruns": 4,
+    "ahits": 6,
+    "hhits": 9,
     "aerrors": 0,
     "herrors": 0,
-    "inning": ""
+    "inning": "Final"
   },
   {
     "away": "St. Louis Cardinals",
     "home": "Cincinnati Reds",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
+    "aruns": 3,
+    "hruns": 6,
+    "ahits": 11,
+    "hhits": 5,
     "aerrors": 0,
-    "herrors": 0,
-    "inning": ""
+    "herrors": 1,
+    "inning": "Final"
   },
   {
     "away": "Houston Astros",
     "home": "Texas Rangers",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
-    "aerrors": 0,
-    "herrors": 0,
-    "inning": ""
+    "aruns": 7,
+    "hruns": 6,
+    "ahits": 11,
+    "hhits": 14,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Bot 7"
   },
   {
     "away": "Los Angeles Angels",
     "home": "Minnesota Twins",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
+    "aruns": 5,
+    "hruns": 7,
+    "ahits": 8,
+    "hhits": 10,
     "aerrors": 0,
     "herrors": 0,
-    "inning": ""
+    "inning": "Final"
   },
   {
     "away": "Arizona Diamondbacks",
     "home": "Colorado Rockies",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
+    "aruns": 6,
+    "hruns": 2,
+    "ahits": 6,
+    "hhits": 5,
     "aerrors": 0,
     "herrors": 0,
-    "inning": ""
+    "inning": "Top 7"
   },
   {
     "away": "Kansas City Royals",
     "home": "Oakland Athletics",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
+    "aruns": 2,
+    "hruns": 2,
+    "ahits": 5,
+    "hhits": 5,
     "aerrors": 0,
-    "herrors": 0,
-    "inning": ""
+    "herrors": 2,
+    "inning": "Top 6"
   },
   {
     "away": "Atlanta Braves",
     "home": "Los Angeles Dodgers",
-    "aruns": 0,
-    "hruns": 0,
-    "ahits": 0,
-    "hhits": 0,
+    "aruns": 2,
+    "hruns": 3,
+    "ahits": 4,
+    "hhits": 5,
     "aerrors": 0,
     "herrors": 0,
-    "inning": ""
+    "inning": "Top 5"
   }
 ];
 
@@ -2358,10 +2358,10 @@ let divBack= document.createElement("DIV");
   document.getElementById("main-content").appendChild(dateDiv);
 
     dateDiv.innerHTML =
-    todayMonth.toString() +
-    "-" +
+    month[todayMonth] +
+    " " +
     todayDate.toString() +
-    "-" +
+    ", " +
     todayYear.toString();
 
     let divForward= document.createElement("DIV");
@@ -2386,6 +2386,7 @@ let divBack= document.createElement("DIV");
     let divRight = document.createElement("DIV");
     divRight.setAttribute("class", "col-md-3");
     document.getElementById("main-scores").appendChild(divRight);
+
 
 function dateBack(){
    if (todayDate>1){
@@ -2420,10 +2421,10 @@ function dateBack(){
     document.getElementById("main-content").appendChild(dateDiv);
     
     dateDiv.innerHTML =
-    todayMonth.toString() +
-    "-" +
+    month[todayMonth] +
+    " " +
     todayDate.toString() +
-    "-" +
+    ", " +
     todayYear.toString();
     
     let divForward= document.createElement("DIV");
@@ -2450,7 +2451,8 @@ function dateBack(){
     divRight.setAttribute("class", "col-md-3");
     document.getElementById("main-scores").appendChild(divRight);
     
-    todayScores(eval("scores"+month[todayMonth]+todayDate)); 
+    todayScores(eval("scores"+month[todayMonth]+todayDate));
+  
 }
 
 function dateForward(){
@@ -2499,10 +2501,10 @@ function dateForward(){
     document.getElementById("main-content").appendChild(dateDiv);
     
     dateDiv.innerHTML =
-    todayMonth.toString() +
-    "-" +
+    month[todayMonth] +
+    " " +
     todayDate.toString() +
-    "-" +
+    ", " +
     todayYear.toString();
     
     let divForward= document.createElement("DIV");
@@ -2535,6 +2537,10 @@ function dateForward(){
 
 divBack.setAttribute("onclick", "dateBack()");
 divForward.setAttribute("onclick", "dateForward()");
+
+
+
+
 
 function todayScores (a){
  
@@ -2624,7 +2630,13 @@ function todayScores (a){
     }else if(a[i].aruns<a[i].hruns && a[i].inning==="Final"){
         hteam.setAttribute("style", "color:yellow");
     }
-  };    
+  };
+    
+   
+    
+   
 };
+
+
 
 document.body.setAttribute("onload", "todayScores(scores"+month[todayMonth]+todayDate+")");
