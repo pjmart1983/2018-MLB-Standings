@@ -1350,7 +1350,7 @@ scores.push(
     "aerrors": 0,
     "herrors": 0,
     "inning": "Final"
-  };
+  });
 
 const homeScores = () => {
   for (i = 0; i < scores.length; i++) {
