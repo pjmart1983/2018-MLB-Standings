@@ -2320,6 +2320,97 @@ let scoresJun10 = [
   }
 ];
 
+let scoresJun11= [
+  {
+    "away": "Boston Red Sox",
+    "home": "Baltimore Orioles",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Toronto Blue Jays",
+    "home": "Tampa Bay Rays",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Miami Marlins",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Chicago Cubs",
+    "home": "Milwaukee Brewers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Cleveland Indians",
+    "home": "Chicago White Sox",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "St. Louis Cardinals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Pittsburgh Pirates",
+    "home": "Arizona Diamondbacks",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Los Angeles Angels",
+    "home": "Seattle Mariners",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  }
+];
+
 let today = new Date();
 let todayDate = today.getDate();
 let todayMonth = today.getMonth() + 1;
