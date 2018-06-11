@@ -1,117 +1,61 @@
-img {
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  border: thin solid white;
+body, html{
+    height: 100%;
+    width: 100%;
 }
 
-body {
-  background-color: #660825;
-  color:white;
+.bg{
+    background-image: url(milky-way-2695569_1920.jpg);
+    color:white;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
 }
 
-p {
-  color: white;
-  text-align: center;
-  font-family: helvetica;
+h1, h3{
+    
+    font-family: cursive;
+    text-align:right;
+    text-shadow: 5px 5px 5px black;
 }
 
-#menu {
-  color: white;
-  font-family: helvetica;
-  text-transform: uppercase;
-  margin: auto;
+#menu{
+    padding: 10px;
+    list-style-type: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 10px; 
 }
 
-.record {
-  width: 10%;
+.menu-items{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
 }
 
-.table {
-  text-shadow: 1px 1px 1px #303030;
-  font-family: helvetica;
-  font-size: 18px;
-  background-color: #220487;
-  color: white;
-  border: thin solid white;
-  font-variant: small-caps;
-}
-
-img:hover {
-  border: medium solid #220487;
-}
-
-.navitem {
-  padding: 10px;
-}
-
-.navitem:hover {
-  cursor: pointer;
-  background-color: white;
-  color: black;
-}
-
-#division {
-  width: 60%;
-}
-.row{
-    display:block;
-}
-
-.wide{
-  width: 70%;
-}
-
-.thin{
-  width: 10%;
-}
-
-#date{
-  color: white; 
-  text-align: center;
-  font-size: 16px;
-  font-family: helvetica;
-}
-
-#back{
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-family: helvetica;
-}
-
-#back:hover{
-    cursor:pointer;
+.menu-items:hover{
     background-color: white;
     color: black;
+    text-decoration: none;
+    opacity: 0.7;
 }
 
-#forward{
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-family: helvetica;
-}
-
-#forward:hover{
-    cursor:pointer;
-    background-color: white;
-    color: black;
-}
-
-#scoreboard{
-    align-items: center;
-}
-
-.link{
+a{
     font-size: 16px;
     color: white;
-    margin: 10px;
+    padding: 10px;
 }
 
-.link:hover{
+a:hover{
     background-color: white;
     color: black;
-    padding: 10px;
     text-decoration: none;
+    opacity: 0.7;
+}
+
+#content{
+    padding: 20%;
 }
