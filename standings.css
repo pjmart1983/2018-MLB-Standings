@@ -1,1 +1,136 @@
+body, html{
+    height: 100%;
+}
 
+.bg{
+  background-image: url(https://i.pinimg.com/originals/4a/ab/59/4aab5983bfbfabbcfcd3bb81566f19a6.jpg);
+  color:white;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: thin solid white;
+}
+
+body {
+  /*background-color: #660825;*/
+  
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: helvetica;
+}
+
+#menu {
+  color: white;
+  font-family: helvetica;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.record {
+  width: 10%;
+}
+
+.table {
+  text-shadow: 1px 1px 1px #303030;
+  font-family: helvetica;
+  font-size: 18px;
+  background-color: #220487;
+  color: white;
+  border: thin solid white;
+  font-variant: small-caps;
+  opacity: 0.8
+}
+
+img:hover {
+  border: medium solid #220487;
+}
+
+.navitem {
+  padding: 10px;
+}
+
+.navitem:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  opacity: 0.7;
+}
+
+#division {
+  width: 60%;
+}
+.row{
+    display:block;
+}
+
+.wide{
+  width: 70%;
+}
+
+.thin{
+  width: 10%;
+}
+
+#date{
+  color: white; 
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+#back{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: helvetica;
+}
+
+#back:hover{
+    cursor:pointer;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+}
+
+#forward{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: helvetica;
+}
+
+#forward:hover{
+    cursor:pointer;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+}
+
+#scoreboard{
+    align-items: center;
+}
+
+.link{
+    font-size: 16px;
+    color: white;
+    margin: 10px;
+}
+
+.link:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    opacity: 0.7;
+}
