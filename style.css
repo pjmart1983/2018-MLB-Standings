@@ -35,8 +35,7 @@ h1{
 #menu{
     padding: 10px;
     list-style-type: none;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
 
 .menu-items{
@@ -55,7 +54,6 @@ h1{
 }
 
 #portfolio:hover{
-    
     text-decoration: none;
     border-style: solid;
     border-color: white;
@@ -87,16 +85,6 @@ h2{
   opacity: 0.8;
 }
 
-.dropbtn {
-    color: white;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -107,7 +95,7 @@ h2{
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content a{
     color: white;
     padding: 10px;
     text-decoration: none;
