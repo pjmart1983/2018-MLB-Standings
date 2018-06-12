@@ -2,9 +2,18 @@ body, html{
     height: 100%;
     width: 100%;
 }
+  
+a{
+  color:white;
+}
+
+a:hover{
+  color:white;
+  text-decoration: none;
+}
 
 .bg{
-    background-image: url(milky-way-2695569_1920.jpg);
+    background-image: url(https://i.pinimg.com/originals/4a/ab/59/4aab5983bfbfabbcfcd3bb81566f19a6.jpg);
     color: white;
     height: 100%;
     width: 100%;
@@ -15,51 +24,44 @@ body, html{
     z-index: -1;
 }
 
-#top{
-  
-}
-
-h1, h3{
+h1{
     
     font-family: arial;
-    text-align: left;
+    text-align: center;
     text-shadow: 5px 5px 5px black;
+    text-transform: capitalize;
 }
 
 #menu{
     padding: 10px;
     list-style-type: none;
     text-transform: uppercase;
-    position: relative;
-    top: 10px; 
+    
 }
 
 .menu-items{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px;
     cursor: pointer;
     color: white;
+    display: inline-block;
 }
 
 .menu-items:hover{
-    background-color: white;
-    color: black;
     text-decoration: none;
-    opacity: 0.7;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding: 9px;
 }
 
-a{
-    font-size: 16px;
-    color: black;
-    padding: 10px;
-}
-
-/*a:hover{
-    background-color: white;
-    color: black;
+#portfolio:hover{
+    
     text-decoration: none;
-    opacity: 0.7;
-}*/
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 1px 0 1px;
+    padding: 9px 9px 10px 9px;
+}
 
 #content{
     background-color: white;
@@ -69,4 +71,51 @@ a{
     height: 50%;
     text-align: center;
     overflow: scroll;
+}
+
+p{
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+h2{
+  padding:15%;
+  font-style: italic;
+  font-family: georgia;
+  color: black;
+  opacity: 0.8;
+}
+
+.dropbtn {
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -13%;
+    top: 150%;
+    background-color: #12045A;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd
 }
