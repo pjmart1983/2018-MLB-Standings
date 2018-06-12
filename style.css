@@ -80,8 +80,8 @@ h2{
 .dropdown-content {
     display: none;
     position: absolute;
-    left: -13%;
-    top: 150%;
+    left: -12%;
+    top: 105%;
     background-color: #12045A;
     min-width: 160px;
     z-index: 1;
