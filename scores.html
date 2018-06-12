@@ -5,15 +5,36 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
         <link rel="stylesheet" href="standings.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body class="bg">
+          <div class="container-fluid">
+           <div id="top" class="col-md-4">
+             <ul id="menu" class="navbar navbar-left" role="tablist">
+              <li id="about" class="menu-items"><a href="about.html">about</a></li>
+              <li id="portfolio" class="menu-items">
+                  <div class="dropdown">
+                      portfolio
+                      <div id="myDropdown" class="dropdown-content">
+                       <a href="scores.html">MLB Scores</a>
+                       <a href="standings.html">MLB Standings</a>
+                       <a href="chipper.html" target="_blank">Chipper Jones Tribute</a>
+                     </div>
+                  </div>
+              </li>
+          <li id="contact" class="menu-items"><a href="contact.html">contact</a></li>
+        </ul>
+    </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+        <h1><a href="index.html">peter j martin</a></h1>
+  </div>
+    </div>
         <br>
         <div class="container-fluid" id="main-content">
         </div>
-        <p class="text-center"><a class="link" href="standings.html">Standings</a></p>
         <div class="container-fluid" id="main-scores">
         </div>
-        <p>Written and coded by <a href="index.html" target="_blank">Peter Martin</a></p>
     </body>
     <script type="text/javascript" src="scores.js"></script>
 </html>

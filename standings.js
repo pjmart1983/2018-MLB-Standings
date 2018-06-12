@@ -1350,6 +1350,7 @@ scores.push(
     "aerrors": 0,
     "herrors": 0,
     "inning": "Final"
+
   },
   //6-11-18
   {

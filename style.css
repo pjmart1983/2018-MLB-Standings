@@ -53,14 +53,6 @@ h1{
     padding: 9px;
 }
 
-#portfolio:hover{
-    text-decoration: none;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px 1px 0 1px;
-    padding: 9px 9px 10px 9px;
-}
-
 #content{
     background-color: white;
     color: black;
@@ -88,8 +80,8 @@ h2{
 .dropdown-content {
     display: none;
     position: absolute;
-    left: -13%;
-    top: 150%;
+    left: -12%;
+    top: 100%;
     background-color: #12045A;
     min-width: 160px;
     z-index: 1;
@@ -106,4 +98,8 @@ h2{
 
 .dropdown-content a:hover {
   background-color: #ddd
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
