@@ -1350,7 +1350,97 @@ scores.push(
     "aerrors": 0,
     "herrors": 0,
     "inning": "Final"
-  };
+  },
+  //6-11-18
+  {
+    "away": "Boston Red Sox",
+    "home": "Baltimore Orioles",
+    "aruns": 2,
+    "hruns": 0,
+    "ahits": 6,
+    "hhits": 5,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Toronto Blue Jays",
+    "home": "Tampa Bay Rays",
+    "aruns": 4,
+    "hruns": 8,
+    "ahits": 8,
+    "hhits": 9,
+    "aerrors": 2,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Miami Marlins",
+    "aruns": 5,
+    "hruns": 7,
+    "ahits": 8,
+    "hhits": 8,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Chicago Cubs",
+    "home": "Milwaukee Brewers",
+    "aruns": 7,
+    "hruns": 2,
+    "ahits": 10,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "Cleveland Indians",
+    "home": "Chicago White Sox",
+    "aruns": 4,
+    "hruns": 0,
+    "ahits": 7,
+    "hhits": 2,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "St. Louis Cardinals",
+    "aruns": 2,
+    "hruns": 5,
+    "ahits": 4,
+    "hhits": 12,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Pittsburgh Pirates",
+    "home": "Arizona Diamondbacks",
+    "aruns": 5,
+    "hruns": 9,
+    "ahits": 8,
+    "hhits": 9,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Los Angeles Angels",
+    "home": "Seattle Mariners",
+    "aruns": 3,
+    "hruns": 5,
+    "ahits": 7,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+);
 
 const homeScores = () => {
   for (i = 0; i < scores.length; i++) {
