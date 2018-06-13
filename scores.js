@@ -2604,30 +2604,30 @@ let month=[
 let divFarLeft= document.createElement("DIV");
    divFarLeft.setAttribute("class", "col-md-3");
    document.getElementById("main-content").appendChild(divFarLeft);
-
+/*
 let divBack= document.createElement("DIV");
    divBack.setAttribute("id", "back");
    divBack.setAttribute("class", "col-md-2");
    divBack.innerHTML="<";
-   document.getElementById("main-content").appendChild(divBack);
+   document.getElementById("main-content").appendChild(divBack);*/
 
   let dateDiv = document.createElement("DIV");
   dateDiv.setAttribute("id", "date");
   dateDiv.setAttribute("class", "col-md-2");
   document.getElementById("main-content").appendChild(dateDiv);
 
-    dateDiv.innerHTML =
+    dateDiv.innerHTML = "<span id='back' onclick='dateBack()'>< </span>"+
     month[todayMonth] +
     " " +
     todayDate.toString() +
     ", " +
-    todayYear.toString();
+    todayYear.toString()+"<span id='forward' onclick='dateForward()'> ></span>";
 
-    let divForward= document.createElement("DIV");
+   /* let divForward= document.createElement("DIV");
     divForward.setAttribute("id", "forward");
     divForward.setAttribute("class", "col-md-2");
     divForward.innerHTML=">";
-    document.getElementById("main-content").appendChild(divForward);
+    document.getElementById("main-content").appendChild(divForward);*/
 
     let divFarRight= document.createElement("DIV");
     divFarRight.setAttribute("class", "col-md-3");
@@ -2666,33 +2666,33 @@ function dateBack(){
     let divFarLeft= document.createElement("DIV");
     divFarLeft.setAttribute("class", "col-md-3");
     document.getElementById("main-content").appendChild(divFarLeft)
-    
+    /*
     let divBack= document.createElement("DIV");
     divBack.setAttribute("id", "back");
     divBack.setAttribute("class", "col-md-2");
     divBack.innerHTML="<";
     document.getElementById("main-content").appendChild(divBack);
     divBack.setAttribute("onclick", "dateBack()");
-    
+    */
     let dateDiv = document.createElement("DIV");
     dateDiv.setAttribute("id", "date");
     dateDiv.setAttribute("class", "col-md-2");
     document.getElementById("main-content").appendChild(dateDiv);
     
-    dateDiv.innerHTML =
+    dateDiv.innerHTML = "<span id='back' onclick='dateBack()'>< </span>"+
     month[todayMonth] +
     " " +
     todayDate.toString() +
     ", " +
-    todayYear.toString();
-    
+    todayYear.toString()+"<span id='forward' onclick='dateForward()'> ></span>";
+    /*
     let divForward= document.createElement("DIV");
     divForward.setAttribute("id", "forward");
     divForward.setAttribute("class", "col-md-2");
     divForward.innerHTML=">";
     document.getElementById("main-content").appendChild(divForward);
     divForward.setAttribute("onclick", "dateForward()");
-    
+    */
     let divFarRight= document.createElement("DIV");
     divFarRight.setAttribute("class", "col-md-3");
     document.getElementById("main-content").appendChild(divFarRight);
@@ -2745,7 +2745,7 @@ function dateForward(){
     let divFarLeft= document.createElement("DIV");
     divFarLeft.setAttribute("class", "col-md-3");
     document.getElementById("main-content").appendChild(divFarLeft)
-    
+    /*
     let divBack= document.createElement("DIV");
     divBack.setAttribute("id", "back");
     divBack.setAttribute("class", "date");
@@ -2753,19 +2753,19 @@ function dateForward(){
     divBack.innerHTML="<";
     document.getElementById("main-content").appendChild(divBack);
     divBack.setAttribute("onclick", "dateBack()");
-    
+    */
     let dateDiv = document.createElement("DIV");
     dateDiv.setAttribute("id", "date");
     dateDiv.setAttribute("class", "col-md-2")
     document.getElementById("main-content").appendChild(dateDiv);
     
-    dateDiv.innerHTML =
+    dateDiv.innerHTML = "<span id='back' onclick='dateBack()'>< </span>"+
     month[todayMonth] +
     " " +
     todayDate.toString() +
     ", " +
-    todayYear.toString();
-    
+    todayYear.toString()+"<span id='forward' onclick='dateForward()'> ></span>";
+    /*
     let divForward= document.createElement("DIV");
     divForward.setAttribute("id", "forward");
     divForward.setAttribute("class", "date");
@@ -2773,7 +2773,7 @@ function dateForward(){
     divForward.innerHTML=">";
     document.getElementById("main-content").appendChild(divForward);
     divForward.setAttribute("onclick", "dateForward()");
-    
+    */
     let divFarRight= document.createElement("DIV");
     divFarRight.setAttribute("class", "col-md-3");
     document.getElementById("main-content").appendChild(divFarRight);
