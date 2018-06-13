@@ -35,7 +35,8 @@ h1{
 #menu{
     padding: 10px;
     list-style-type: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    font-family: helvetica;
 }
 
 .menu-items{
