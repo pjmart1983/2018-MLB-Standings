@@ -2822,7 +2822,7 @@ function dateBack(){
     let divFarLeft= document.createElement("DIV");
     divFarLeft.setAttribute("class", "col-md-3");
     document.getElementById("main-content").appendChild(divFarLeft)
-  
+
     let dateDiv = document.createElement("DIV");
     dateDiv.setAttribute("id", "date");
     dateDiv.setAttribute("class", "col-md-6");
@@ -2887,7 +2887,7 @@ function dateForward(){
     let divFarLeft= document.createElement("DIV");
     divFarLeft.setAttribute("class", "col-md-3");
     document.getElementById("main-content").appendChild(divFarLeft)
-   
+
     let dateDiv = document.createElement("DIV");
     dateDiv.setAttribute("id", "date");
     dateDiv.setAttribute("class", "col-md-6")
@@ -2919,10 +2919,6 @@ function dateForward(){
     
     todayScores(eval("scores"+month[todayMonth]+todayDate));
 }
-
-
-
-
 
 function todayScores (a){
  

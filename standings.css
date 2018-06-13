@@ -1,5 +1,6 @@
 body, html{
     height: 100%;
+    width: 100%;
 }
 
 .bg{
@@ -95,6 +96,7 @@ img:hover {
     text-transform: capitalize;
     font-size: 16px;
     font-family: helvetica;
+    padding: 10px 30px 5px 30px;
 }
 
 #back:hover{
@@ -109,6 +111,7 @@ img:hover {
     text-transform: capitalize;
     font-size: 16px;
     font-family: helvetica;
+    padding: 10px 30px 5px 30px;
 }
 
 #forward:hover{
