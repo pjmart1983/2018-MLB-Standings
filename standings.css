@@ -6,10 +6,12 @@ body, html{
   background-image: url(https://i.pinimg.com/originals/4a/ab/59/4aab5983bfbfabbcfcd3bb81566f19a6.jpg);
   color:white;
   height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  z-index: -1;
 }
 
 img {
