@@ -1441,6 +1441,172 @@ scores.push(
     "herrors": 1,
     "inning": "Final"
   },
+  //6-12-18
+  {
+    "away": "Boston Red Sox",
+    "home": "Baltimore Orioles",
+    "aruns": 6,
+    "hruns": 4,
+    "ahits": 9,
+    "hhits": 11,
+    "aerrors": 2,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Washington Nationals",
+    "home": "New York Yankees",
+    "aruns": 0,
+    "hruns": 3,
+    "ahits": 5,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Colorado Rockies",
+    "home": "Philadelphia Phillies",
+    "aruns": 4,
+    "hruns": 5,
+    "ahits": 11,
+    "hhits": 4,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Minnesota Twins",
+    "home": "Detroit Tigers",
+    "aruns": 6,
+    "hruns": 4,
+    "ahits": 7,
+    "hhits": 7,
+    "aerrors": 2,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Miami Marlins",
+    "aruns": 1,
+    "hruns": 3,
+    "ahits": 3,
+    "hhits": 6,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Toronto Blue Jays",
+    "home": "Tampa Bay Rays",
+    "aruns": 1,
+    "hruns": 4,
+    "ahits": 5,
+    "hhits": 7,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Mets",
+    "home": "Atlanta Braves",
+    "aruns": 2,
+    "hruns": 8,
+    "ahits": 3,
+    "hhits": 10,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Chicago Cubs",
+    "home": "Milwaukee Brewers",
+    "aruns": 0,
+    "hruns": 4,
+    "ahits": 2,
+    "hhits": 7,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Cleveland Indians",
+    "home": "Chicago White Sox",
+    "aruns": 1,
+    "hruns": 5,
+    "ahits": 5,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Cincinnati Reds",
+    "home": "Kansas City Royals",
+    "aruns": 5,
+    "hruns": 1,
+    "ahits": 8,
+    "hhits": 4,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "St. Louis Cardinals",
+    "aruns": 4,
+    "hruns": 2,
+    "ahits": 7,
+    "hhits": 5,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Pittsburgh Pirates",
+    "home": "Arizona Diamondbacks",
+    "aruns": 8,
+    "hruns": 13,
+    "ahits": 12,
+    "hhits": 11,
+    "aerrors": 3,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Houston Astros",
+    "home": "Oakland Athletics",
+    "aruns": 6,
+    "hruns": 3,
+    "ahits": 12,
+    "hhits": 7,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Los Angeles Angels",
+    "home": "Seattle Mariners",
+    "aruns": 3,
+    "hruns": 6,
+    "ahits": 6,
+    "hhits": 14,
+    "aerrors": 2,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "Texas Rangers",
+    "home": "Los Angeles Dodgers",
+    "aruns": 5,
+    "hruns": 12,
+    "ahits": 8,
+    "hhits": 16,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
 );
 
 const homeScores = () => {
