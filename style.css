@@ -70,7 +70,7 @@ p{
 }
 
 h2{
-  padding:15%;
+  padding:10px;
   font-style: italic;
   font-family: georgia;
   color: black;
@@ -78,6 +78,7 @@ h2{
 }
 
 h4{
+  padding: 10px;
   font-family: georgia;
   font-style: italic;
   opacity: 0.8;
