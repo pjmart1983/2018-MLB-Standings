@@ -2604,12 +2604,6 @@ let month=[
 let divFarLeft= document.createElement("DIV");
    divFarLeft.setAttribute("class", "col-md-3");
    document.getElementById("main-content").appendChild(divFarLeft);
-/*
-let divBack= document.createElement("DIV");
-   divBack.setAttribute("id", "back");
-   divBack.setAttribute("class", "col-md-2");
-   divBack.innerHTML="<";
-   document.getElementById("main-content").appendChild(divBack);*/
 
   let dateDiv = document.createElement("DIV");
   dateDiv.setAttribute("id", "date");
@@ -2622,12 +2616,6 @@ let divBack= document.createElement("DIV");
     todayDate.toString() +
     ", " +
     todayYear.toString()+"<span id='forward' onclick='dateForward()'> ></span>";
-
-   /* let divForward= document.createElement("DIV");
-    divForward.setAttribute("id", "forward");
-    divForward.setAttribute("class", "col-md-2");
-    divForward.innerHTML=">";
-    document.getElementById("main-content").appendChild(divForward);*/
 
     let divFarRight= document.createElement("DIV");
     divFarRight.setAttribute("class", "col-md-3");
@@ -2666,14 +2654,7 @@ function dateBack(){
     let divFarLeft= document.createElement("DIV");
     divFarLeft.setAttribute("class", "col-md-3");
     document.getElementById("main-content").appendChild(divFarLeft)
-    /*
-    let divBack= document.createElement("DIV");
-    divBack.setAttribute("id", "back");
-    divBack.setAttribute("class", "col-md-2");
-    divBack.innerHTML="<";
-    document.getElementById("main-content").appendChild(divBack);
-    divBack.setAttribute("onclick", "dateBack()");
-    */
+    
     let dateDiv = document.createElement("DIV");
     dateDiv.setAttribute("id", "date");
     dateDiv.setAttribute("class", "col-md-2");
@@ -2685,14 +2666,7 @@ function dateBack(){
     todayDate.toString() +
     ", " +
     todayYear.toString()+"<span id='forward' onclick='dateForward()'> ></span>";
-    /*
-    let divForward= document.createElement("DIV");
-    divForward.setAttribute("id", "forward");
-    divForward.setAttribute("class", "col-md-2");
-    divForward.innerHTML=">";
-    document.getElementById("main-content").appendChild(divForward);
-    divForward.setAttribute("onclick", "dateForward()");
-    */
+    
     let divFarRight= document.createElement("DIV");
     divFarRight.setAttribute("class", "col-md-3");
     document.getElementById("main-content").appendChild(divFarRight);
@@ -2745,15 +2719,7 @@ function dateForward(){
     let divFarLeft= document.createElement("DIV");
     divFarLeft.setAttribute("class", "col-md-3");
     document.getElementById("main-content").appendChild(divFarLeft)
-    /*
-    let divBack= document.createElement("DIV");
-    divBack.setAttribute("id", "back");
-    divBack.setAttribute("class", "date");
-    divBack.setAttribute("class", "col-md-2");
-    divBack.innerHTML="<";
-    document.getElementById("main-content").appendChild(divBack);
-    divBack.setAttribute("onclick", "dateBack()");
-    */
+    
     let dateDiv = document.createElement("DIV");
     dateDiv.setAttribute("id", "date");
     dateDiv.setAttribute("class", "col-md-2")
@@ -2765,15 +2731,7 @@ function dateForward(){
     todayDate.toString() +
     ", " +
     todayYear.toString()+"<span id='forward' onclick='dateForward()'> ></span>";
-    /*
-    let divForward= document.createElement("DIV");
-    divForward.setAttribute("id", "forward");
-    divForward.setAttribute("class", "date");
-    divForward.setAttribute("class", "col-md-2");
-    divForward.innerHTML=">";
-    document.getElementById("main-content").appendChild(divForward);
-    divForward.setAttribute("onclick", "dateForward()");
-    */
+    
     let divFarRight= document.createElement("DIV");
     divFarRight.setAttribute("class", "col-md-3");
     document.getElementById("main-content").appendChild(divFarRight);
@@ -2793,13 +2751,6 @@ function dateForward(){
     
     todayScores(eval("scores"+month[todayMonth]+todayDate));
 }
-
-divBack.setAttribute("onclick", "dateBack()");
-divForward.setAttribute("onclick", "dateForward()");
-
-
-
-
 
 function todayScores (a){
  
