@@ -2607,7 +2607,7 @@ let divFarLeft= document.createElement("DIV");
 
   let dateDiv = document.createElement("DIV");
   dateDiv.setAttribute("id", "date");
-  dateDiv.setAttribute("class", "col-md-2");
+  dateDiv.setAttribute("class", "col-md-6");
   document.getElementById("main-content").appendChild(dateDiv);
 
     dateDiv.innerHTML = "<span id='back' onclick='dateBack()'>< </span>"+
@@ -2657,7 +2657,7 @@ function dateBack(){
     
     let dateDiv = document.createElement("DIV");
     dateDiv.setAttribute("id", "date");
-    dateDiv.setAttribute("class", "col-md-2");
+    dateDiv.setAttribute("class", "col-md-6");
     document.getElementById("main-content").appendChild(dateDiv);
     
     dateDiv.innerHTML = "<span id='back' onclick='dateBack()'>< </span>"+
@@ -2722,7 +2722,7 @@ function dateForward(){
     
     let dateDiv = document.createElement("DIV");
     dateDiv.setAttribute("id", "date");
-    dateDiv.setAttribute("class", "col-md-2")
+    dateDiv.setAttribute("class", "col-md-6")
     document.getElementById("main-content").appendChild(dateDiv);
     
     dateDiv.innerHTML = "<span id='back' onclick='dateBack()'>< </span>"+
