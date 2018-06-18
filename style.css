@@ -36,7 +36,7 @@ h1{
     padding: 10px;
     list-style-type: none;
     text-transform: uppercase;
-    font-family: helvetica;
+    font-family: Montserrat;
 }
 
 .menu-items{
@@ -73,14 +73,14 @@ p{
 h2{
   padding:10px;
   font-style: italic;
-  font-family: georgia;
+  font-family: Montserrat;
   color: black;
   opacity: 0.8;
 }
 
 h4{
   padding: 10px;
-  font-family: georgia;
+  font-family: Montserrat;
   font-style: italic;
   opacity: 0.8;
   text-align: right;
