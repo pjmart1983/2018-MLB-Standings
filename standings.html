@@ -4,65 +4,42 @@
   <meta charset="UTF-8">
   <meta name="author" content="Peter J Martin">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
-  <link rel="stylesheet" href="standings.css">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <title>2018 MLB Standings</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
 </head>
 
-<body class="bg">
-  <div class="container-fluid">
-           <div id="top" class="col-md-4">
-             <ul id="menu" class="navbar navbar-left" role="tablist">
-              <li id="about" class="menu-items"><a href="about.html">about</a></li>
-              <li id="portfolio" class="menu-items">
-                  <div class="dropdown">
-                      projects
-                      <div id="myDropdown" class="dropdown-content">
-                       <a href="scores.html">MLB Scores</a>
-                       <a href="standings.html">MLB Standings</a>
-                       <a href="chipper.html" target="_blank">Chipper Jones Tribute</a>
-                     </div>
-                  </div>
-              </li>
-          <li id="contact" class="menu-items"><a href="contact.html">contact</a></li>
-        </ul>
-    </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-        <h1><a href="index.html">peter j martin</a></h1>
+<body>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="index.html#about">about</a></li>
+      <li><a href="#">projects</a></li>
+      <li><a href="index.html#contact">contact</a></li>
+    </ul>
   </div>
-    </div>
-  <div class="container-fluid">
-    <div class="col-md-3"></div>
-    <div class="col-md-6">
-      <div id="menu">
-        <ul class="nav justify-content-center">
-
-          <li id="nlEast" class="navitem">nl east</li>
-          <li id="nlCentral" class="navitem">nl central</li>
-          <li id="nlWest" class="navitem">nl west</li>
-
+  <div id="container">
+      <div class="divisions">
+        <ul>
+          <li id="nlEast">nl east</li>
+          <li id="nlCentral">nl central</li>
+          <li id="nlWest">nl west</li>
         </ul>
-        <ul class="nav justify-content-center">
-
-          <li id="alEast" class="navitem">al east</li>
-          <li id="alCentral" class="navitem">al central</li>
-          <li id="alWest" class="navitem">al west</li>
-
+        <ul>
+          <li id="alEast">al east</li>
+          <li id="alCentral">al central</li>
+          <li id="alWest">al west</li>
         </ul>
       </div>
       <div>
-        <table class="table well">
-          <thead class="text-uppercase">
+        <table>
+          <thead>
             <tr>
-              <td id="division"></td>
-              <td class="record">w</td>
-              <td class="record">l</td>
-              <td class="record">pct</td>
-              <td class="record">gb</td>
+              <th id="division"></th>
+              <th>w</th>
+              <th>l</th>
+              <th>pct</th>
+              <th>gb</th>
             </tr>
           </thead>
           <tbody id="standings">             
@@ -104,10 +81,7 @@
           </tbody>
         </table>
       </div>
-    </div>
-    <div class="col-md-3"></div>
   </div>
 </body>
   <script type="text/javascript" src="standings.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </html>
