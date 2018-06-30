@@ -1,14 +1,104 @@
-body, html{
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	font-family: Montserrat;
-	background-image: url(https://i.pinimg.com/originals/4a/ab/59/4aab5983bfbfabbcfcd3bb81566f19a6.jpg);
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	background-attachment: fixed;
-	z-index: -1;
+html{
+  height: 100%;
+}
+
+body{
+  background-image: url(https://i.pinimg.com/originals/4a/ab/59/4aab5983bfbfabbcfcd3bb81566f19a6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 70px;
+  font-family: 'Montserrat';
+}
+
+.navbar-default .navbar-collapse>ul>li>a{
+  color: white;
+}
+
+.navbar-default .navbar-collapse .dropdown-menu>ul>li>a{
+  color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #333;
+    background: white;
+}
+
+.dropdown-menu{
+  background: #081a38;
+  box-shadow: 1px 1px 5px black,
+              1px 1px 10px black,
+              1px 1px 20px black;
+}
+
+.dropdown-menu>li>a{
+  color: white;
+}
+
+.navbar-default .navbar-collapse>ul>li>a:hover{
+  background: white;
+}
+
+.navbar-default{
+  background: #081a38;
+  border: none;
+  margin-bottom: 0;
+  box-shadow: 1px 1px 5px black,
+              1px 1px 10px black,
+              1px 1px 20px black;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+   background: white;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+  font-variant: small-caps;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+.navbar-default .navbar-brand:hover{
+  background: white;
+  letter-spacing: 0.2rem;
+}
+
+#header{
+  color: white;
+  text-align: center;
+  padding: 10%;
+}
+
+#about{
+  opacity: 0.8;
+}
+
+#contact{
+  color: white;
+  padding: 10% 0;
+}
+
+h1{
+  font-size: 4em;
+  color: #f6f4f7;
+  letter-spacing: 1rem;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-shadow: 1px 1px 5px black,
+               1px 1px 10px black,
+               1px 1px 20px black;
+}
+
+hr{
+  width: 60%;
+  box-shadow: 1px 1px 5px black,
+              1px 1px 10px black,
+              1px 1px 20px black;
 }
 
 li{
@@ -32,107 +122,30 @@ a:hover{
 	color: black;
 }
 
-#menu{
-	background: rgb(5, 29, 76);
-	float: left;
-	width: 100%;
-	position: fixed;
-	text-transform: capitalize;
-	box-shadow: 1px 1px 10px #3a3b3d;
-	z-index: 1;
-}
-
-#home{
-	padding: 10% 0;
-	text-align: center;
-	text-transform: capitalize;
-	float: left;
-	width: 100%;
-	color: white;
-
-
-}
-
-#about{
-	background: #b4b6ba;
-	padding: 5% 0;
-	float: left;
-	width: 100%;
-	opacity: 0.8;
-}
-
-#contact{
-	padding: 5% 0;
-	float: left;
-	width: 100%;
-	color: white;
-}
-
-#quote{
-	padding: 5% 0;
-	float: left;
-	width: 100%;
-	color: white;
-	text-align: center;
-	background: #25427a;
-	opacity: 0.8;
-	font-style: italic;
-}
-
-#footer{
-	padding: 10% 0;
-	float: left;
-	width: 100%;
-	color: white;
-	text-align: center;
-}
-
-h1{
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-}
-
-h3{
-	text-transform: capitalize;
-}
-
 img{
-	width: 18px;
-	height: 18px;
+	width: 25px;
+	height: 25px;
 	border-radius: 20px;
 	border: 1px solid white;
 }
 
-h3, p{
-	padding: 0 10%;
-}
-
-table{
+.table{
 	color: white;
-	background: rgb(5, 29, 76);
+	background: #081a38;
 	margin: auto;
-	min-width: 500px;
-	width: 50%;
-	border: 1px solid white;
+	width: 60%;
 	font-size: 18px;
+  	box-shadow: 1px 1px 5px black,
+              1px 1px 10px black,
+              1px 1px 20px black;
 }
 
 .team{
-	padding: 0 0 0 5px;
+	padding: 0;
 }
 
 .team:hover{
-	background: rgb(5, 29, 76);
-}
-
-#container{
-	float: left;
-	width: 100%;
-	padding-top: 10%;
-}
-
-#division{
-	padding-left: 5px;
+  background: #081a38;
 }
 
 .divisions{
@@ -175,6 +188,60 @@ th:nth-of-type(1), td:nth-of-type(1){
 	text-align: left;
 }
 
-td:nth-of-type(1){
+.table>thead>tr>th {
+  border: none;
+}
 
+#date{
+  color: white; 
+  text-align: center;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-shadow: 5px 5px 10px black;
+  font-weight: 600;
+}
+
+#back{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: Montserrat;
+    padding: 10px 30px 5px 30px;
+}
+
+#back:hover{
+    cursor:pointer;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    text-shadow: none;
+}
+
+#forward{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: Montserrat;
+    padding: 10px 30px 5px 30px;
+}
+
+#forward:hover{
+    cursor:pointer;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    text-shadow: none;
+}
+#scores{
+	margin: 20px auto;
+	width: 100%;
+}
+
+.wide{
+  width: 70%;
+  padding-left: 5px;
+}
+
+.thin{
+  width: 10%;
 }

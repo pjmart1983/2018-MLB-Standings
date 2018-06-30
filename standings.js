@@ -2482,7 +2482,7 @@ alEast[1].image =
   "https://upload.wikimedia.org/wikipedia/commons/7/70/NewYorkYankees_caplogo.svg";
 
 alEast[2].image =
-  "https://upload.wikimedia.org/wikipedia/en/1/11/TorontoBlueJays2012cap.png";
+  "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Toronto_Blue_Jays_cap.svg/250px-Toronto_Blue_Jays_cap.svg.png";
 
 alEast[3].image =
   "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tampa_Bay_Rays_cap_logo.svg/200px-Tampa_Bay_Rays_cap_logo.svg.png";
