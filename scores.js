@@ -794,6 +794,26 @@ let scoresMay5 = [
   }
 ];
 
+let scoresMay6 = [];
+
+let scoresMay7 = [];
+
+let scoresMay8 = [];
+
+let scoresMay9 = [];
+
+let scoresMay10 = [];
+
+let scoresMay11 = [];
+
+let scoresMay12 = [];
+
+let scoresMay13 = [];
+
+let scoresMay14 = [];
+
+let scoresMay15 = [];
+
 let scoresJun1 = [
   {
     "away": "Washington Nationals",
@@ -2320,7 +2340,7 @@ let scoresJun10 = [
   }
 ];
 
-let scoresJun11= [
+let scoresJun11 = [
   {
     "away": "Boston Red Sox",
     "home": "Baltimore Orioles",
@@ -2411,7 +2431,7 @@ let scoresJun11= [
   }
 ];
 
-let scoresJun12= [
+let scoresJun12 = [
   {
     "away": "Boston Red Sox",
     "home": "Baltimore Orioles",
@@ -2579,7 +2599,7 @@ let scoresJun12= [
   }
 ];
 
-let scoresJun13= [
+let scoresJun13 = [
   {
     "away": "Boston Red Sox",
     "home": "Baltimore Orioles",
@@ -2747,7 +2767,7 @@ let scoresJun13= [
   }
 ];
 
-let scoresJun14= [
+let scoresJun14 = [
   {
     "away": "San Francisco Giants",
     "home": "Miami Marlins",
@@ -2849,9 +2869,959 @@ let scoresJun14= [
   }
 ];
 
-let scoresJun15= [
+let scoresJun15 = [
   {
     "away": "Cincinnati Reds",
+    "home": "Pittsburgh Pirates",
+    "aruns": 2,
+    "hruns": 3,
+    "ahits": 7,
+    "hhits": 6,
+    "aerrors": 0,
+    "herrors": 3,
+    "inning": "Final"
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "New York Yankees",
+    "aruns": 0,
+    "hruns": 5,
+    "ahits": 4,
+    "hhits": 9,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Miami Marlins",
+    "home": "Baltimore Orioles",
+    "aruns": 2,
+    "hruns": 0,
+    "ahits": 8,
+    "hhits": 3,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Washington Nationals",
+    "home": "Toronto Blue Jays",
+    "aruns": 5,
+    "hruns": 6,
+    "ahits": 10,
+    "hhits": 10,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Minnesota Twins",
+    "home": "Cleveland Indians",
+    "aruns": 6,
+    "hruns": 3,
+    "ahits": 6,
+    "hhits": 7,
+    "aerrors": 0,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "Atlanta Braves",
+    "aruns": 9,
+    "hruns": 3,
+    "ahits": 14,
+    "hhits": 6,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Colorado Rockies",
+    "home": "Texas Rangers",
+    "aruns": 9,
+    "hruns": 5,
+    "ahits": 13,
+    "hhits": 6,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Detroit Tigers",
+    "home": "Chicago White Sox",
+    "aruns": 4,
+    "hruns": 3,
+    "ahits": 10,
+    "hhits": 12,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Philadelphia Phillies",
+    "home": "Milwaukee Brewers",
+    "aruns": 2,
+    "hruns": 13,
+    "ahits": 8,
+    "hhits": 13,
+    "aerrors": 4,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Chicago Cubs",
+    "home": "St. Louis Cardinals",
+    "aruns": 13,
+    "hruns": 5,
+    "ahits": 14,
+    "hhits": 9,
+    "aerrors": 2,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "Houston Astros",
+    "home": "Kansas City Royals",
+    "aruns": 7,
+    "hruns": 3,
+    "ahits": 12,
+    "hhits": 5,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Los Angeles Angels",
+    "home": "Oakland Athletics",
+    "aruns": 8,
+    "hruns": 4,
+    "ahits": 9,
+    "hhits": 10,
+    "aerrors": 1,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Mets",
+    "home": "Arizona Diamondbacks",
+    "aruns": 3,
+    "hruns": 7,
+    "ahits": 7,
+    "hhits": 12,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "Seattle Mariners",
+    "aruns": 6,
+    "hruns": 7,
+    "ahits": 10,
+    "hhits": 10,
+    "aerrors": 0,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Los Angeles Dodgers",
+    "aruns": 2,
+    "hruns": 3,
+    "ahits": 4,
+    "hhits": 6,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  }
+];
+
+let scoresJun16 = [
+  {
+    "away": "Cincinnati Reds",
+    "home": "Pittsburgh Pirates",
+    "aruns": 2,
+    "hruns": 6,
+    "ahits": 7,
+    "hhits": 10,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "New York Yankees",
+    "aruns": 1,
+    "hruns": 4,
+    "ahits": 5,
+    "hhits": 8,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Miami Marlins",
+    "home": "Baltimore Orioles",
+    "aruns": 5,
+    "hruns": 4,
+    "ahits": 8,
+    "hhits": 11,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Washington Nationals",
+    "home": "Toronto Blue Jays",
+    "aruns": 0,
+    "hruns": 2,
+    "ahits": 3,
+    "hhits": 4,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Minnesota Twins",
+    "home": "Cleveland Indians",
+    "aruns": 9,
+    "hruns": 3,
+    "ahits": 13,
+    "hhits": 10,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "Atlanta Braves",
+    "aruns": 0,
+    "hruns": 1,
+    "ahits": 4,
+    "hhits": 5,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Colorado Rockies",
+    "home": "Texas Rangers",
+    "aruns": 2,
+    "hruns": 5,
+    "ahits": 5,
+    "hhits": 10,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Detroit Tigers",
+    "home": "Chicago White Sox",
+    "aruns": 7,
+    "hruns": 5,
+    "ahits": 10,
+    "hhits": 7,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Philadelphia Phillies",
+    "home": "Milwaukee Brewers",
+    "aruns": 4,
+    "hruns": 1,
+    "ahits": 9,
+    "hhits": 5,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Chicago Cubs",
+    "home": "St. Louis Cardinals",
+    "aruns": 6,
+    "hruns": 3,
+    "ahits": 10,
+    "hhits": 9,
+    "aerrors": 0,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "Houston Astros",
+    "home": "Kansas City Royals",
+    "aruns": 10,
+    "hruns": 2,
+    "ahits": 10,
+    "hhits": 6,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Los Angeles Angels",
+    "home": "Oakland Athletics",
+    "aruns": 4,
+    "hruns": 6,
+    "ahits": 6,
+    "hhits": 6,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Mets",
+    "home": "Arizona Diamondbacks",
+    "aruns": 5,
+    "hruns": 1,
+    "ahits": 10,
+    "hhits": 6,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "Seattle Mariners",
+    "aruns": 0,
+    "hruns": 1,
+    "ahits": 2,
+    "hhits": 6,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Los Angeles Dodgers",
+    "aruns": 1,
+    "hruns": 3,
+    "ahits": 4,
+    "hhits": 6,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  }
+];
+
+let scoresJun17 = [
+  {
+    "away": "Cincinnati Reds",
+    "home": "Pittsburgh Pirates",
+    "aruns": 8,
+    "hruns": 6,
+    "ahits": 13,
+    "hhits": 11,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "New York Yankees",
+    "aruns": 3,
+    "hruns": 1,
+    "ahits": 11,
+    "hhits": 7,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Miami Marlins",
+    "home": "Baltimore Orioles",
+    "aruns": 4,
+    "hruns": 10,
+    "ahits": 9,
+    "hhits": 14,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Washington Nationals",
+    "home": "Toronto Blue Jays",
+    "aruns": 6,
+    "hruns": 8,
+    "ahits": 13,
+    "hhits": 15,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Minnesota Twins",
+    "home": "Cleveland Indians",
+    "aruns": 1,
+    "hruns": 4,
+    "ahits": 10,
+    "hhits": 7,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "Atlanta Braves",
+    "aruns": 1,
+    "hruns": 4,
+    "ahits": 6,
+    "hhits": 7,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Colorado Rockies",
+    "home": "Texas Rangers",
+    "aruns": 12,
+    "hruns": 13,
+    "ahits": 15,
+    "hhits": 10,
+    "aerrors": 2,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Detroit Tigers",
+    "home": "Chicago White Sox",
+    "aruns": 3,
+    "hruns": 1,
+    "ahits": 6,
+    "hhits": 9,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Philadelphia Phillies",
+    "home": "Milwaukee Brewers",
+    "aruns": 10,
+    "hruns": 9,
+    "ahits": 12,
+    "hhits": 13,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Chicago Cubs",
+    "home": "St. Louis Cardinals",
+    "aruns": 0,
+    "hruns": 5,
+    "ahits": 4,
+    "hhits": 10,
+    "aerrors": 1,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "Houston Astros",
+    "home": "Kansas City Royals",
+    "aruns": 7,
+    "hruns": 4,
+    "ahits": 15,
+    "hhits": 6,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Los Angeles Angels",
+    "home": "Oakland Athletics",
+    "aruns": 5,
+    "hruns": 6,
+    "ahits": 9,
+    "hhits": 7,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Mets",
+    "home": "Arizona Diamondbacks",
+    "aruns": 5,
+    "hruns": 3,
+    "ahits": 9,
+    "hhits": 7,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "Seattle Mariners",
+    "aruns": 9,
+    "hruns": 3,
+    "ahits": 13,
+    "hhits": 8,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Los Angeles Dodgers",
+    "aruns": 4,
+    "hruns": 1,
+    "ahits": 3,
+    "hhits": 4,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  }
+];
+
+let scoresJun18 = [
+  {
+    "away": "New York Yankees",
+    "home": "Washington Nationals",
+    "aruns": 3,
+    "hruns": 5,
+    "ahits": 9,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Yankees",
+    "home": "Washington Nationals",
+    "aruns": 4,
+    "hruns": 2,
+    "ahits": 9,
+    "hhits": 7,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Milwaukee Brewers",
+    "home": "Pittsburgh Pirates",
+    "aruns": 0,
+    "hruns": 1,
+    "ahits": 2,
+    "hhits": 7,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "St. Louis Cardinals",
+    "home": "Philadelphia Phillies",
+    "aruns": 5,
+    "hruns": 6,
+    "ahits": 9,
+    "hhits": 8,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Cleveland Indians",
+    "aruns": 2,
+    "hruns": 6,
+    "ahits": 6,
+    "hhits": 9,
+    "aerrors": 3,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "Houston Astros",
+    "aruns": 4,
+    "hruns": 5,
+    "ahits": 4,
+    "hhits": 10,
+    "aerrors": 3,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Texas Rangers",
+    "home": "Kansas City Royals",
+    "aruns": 6,
+    "hruns": 3,
+    "ahits": 8,
+    "hhits": 9,
+    "aerrors": 2,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Mets",
+    "home": "Colorado Rockies",
+    "aruns": 12,
+    "hruns": 2,
+    "ahits": 15,
+    "hhits": 5,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Arizona Diamondbacks",
+    "home": "Los Angeles Angels",
+    "aruns": 7,
+    "hruns": 4,
+    "ahits": 10,
+    "hhits": 12,
+    "aerrors": 0,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "Miami Marlins",
+    "home": "San Francisco Giants",
+    "aruns": 5,
+    "hruns": 4,
+    "ahits": 8,
+    "hhits": 6,
+    "aerrors": 2,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Los Angeles Dodgers",
+    "home": "Chicago Cubs",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": "PPD"
+  }
+];
+
+let scoresJun19 = [
+  {
+    "away": "Los Angeles Dodgers",
+    "home": "Chicago Cubs",
+    "aruns": 4,
+    "hruns": 3,
+    "ahits": 6,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Seattle Mariners",
+    "home": "New York Yankees",
+    "aruns": 2,
+    "hruns": 7,
+    "ahits": 2,
+    "hhits": 11,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "St. Louis Cardinals",
+    "home": "Philadelphia Phillies",
+    "aruns": 7,
+    "hruns": 6,
+    "ahits": 8,
+    "hhits": 9,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Baltimore Orioles",
+    "home": "Washington Nationals",
+    "aruns": 7,
+    "hruns": 9,
+    "ahits": 7,
+    "hhits": 14,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Milwaukee Brewers",
+    "home": "Pittsburgh Pirates",
+    "aruns": 3,
+    "hruns": 2,
+    "ahits": 9,
+    "hhits": 5,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Atlanta Braves",
+    "home": "Toronto Blue Jays",
+    "aruns": 11,
+    "hruns": 4,
+    "ahits": 14,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Detroit Tigers",
+    "home": "Cincinnati Reds",
+    "aruns": 5,
+    "hruns": 9,
+    "ahits": 9,
+    "hhits": 13,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Cleveland Indians",
+    "aruns": 3,
+    "hruns": 6,
+    "ahits": 8,
+    "hhits": 9,
+    "aerrors": 1,
+    "herrors": 3,
+    "inning": "Final"
+  },
+  {
+    "away": "Los Angeles Dodgers",
+    "home": "Chicago Cubs",
+    "aruns": 1,
+    "hruns": 2,
+    "ahits": 9,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "Minnesota Twins",
+    "aruns": 2,
+    "hruns": 6,
+    "ahits": 8,
+    "hhits": 5,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "Houston Astros",
+    "aruns": 2,
+    "hruns": 1,
+    "ahits": 8,
+    "hhits": 5,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Texas Rangers",
+    "home": "Kansas City Royals",
+    "aruns": 4,
+    "hruns": 1,
+    "ahits": 12,
+    "hhits": 4,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Mets",
+    "home": "Colorado Rockies",
+    "aruns": 8,
+    "hruns": 10,
+    "ahits": 9,
+    "hhits": 16,
+    "aerrors": 1,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "Arizona Diamondbacks",
+    "home": "Los Angeles Angels",
+    "aruns": 4,
+    "hruns": 5,
+    "ahits": 5,
+    "hhits": 8,
+    "aerrors": 2,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Oakland Athletics",
+    "home": "San Diego Padres",
+    "aruns": 4,
+    "hruns": 2,
+    "ahits": 7,
+    "hhits": 6,
+    "aerrors": 0,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "Miami Marlins",
+    "home": "San Francisco Giants",
+    "aruns": 3,
+    "hruns": 6,
+    "ahits": 8,
+    "hhits": 11,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  }
+];
+
+let scoresJun20 = [
+  {
+    "away": "Detroit Tigers",
+    "home": "Cincinnati Reds",
+    "aruns": 3,
+    "hruns": 5,
+    "ahits": 8,
+    "hhits": 10,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Atlanta Braves",
+    "home": "Toronto Blue Jays",
+    "aruns": 4,
+    "hruns": 5,
+    "ahits": 8,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "St. Louis Cardinals",
+    "home": "Philadelphia Phillies",
+    "aruns": 3,
+    "hruns": 4,
+    "ahits": 7,
+    "hhits": 9,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Cleveland Indians",
+    "aruns": 0,
+    "hruns": 12,
+    "ahits": 2,
+    "hhits": 12,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Los Angeles Dodgers",
+    "home": "Chicago Cubs",
+    "aruns": 0,
+    "hruns": 4,
+    "ahits": 6,
+    "hhits": 12,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Oakland Athletics",
+    "home": "San Diego Padres",
+    "aruns": 12,
+    "hruns": 4,
+    "ahits": 15,
+    "hhits": 9,
+    "aerrors": 2,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "Miami Marlins",
+    "home": "San Francisco Giants",
+    "aruns": 5,
+    "hruns": 6,
+    "ahits": 13,
+    "hhits": 10,
+    "aerrors": 1,
+    "herrors": 2,
+    "inning": "Final"
+  },
+  {
+    "away": "Baltimore Orioles",
+    "home": "Washington Nationals",
+    "aruns": 3,
+    "hruns": 0,
+    "ahits": 8,
+    "hhits": 5,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Seattle Mariners",
+    "home": "New York Yankees",
+    "aruns": 5,
+    "hruns": 7,
+    "ahits": 10,
+    "hhits": 11,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "Minnesota Twins",
+    "aruns": 1,
+    "hruns": 4,
+    "ahits": 4,
+    "hhits": 8,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "Houston Astros",
+    "aruns": 1,
+    "hruns": 5,
+    "ahits": 4,
+    "hhits": 11,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Texas Rangers",
+    "home": "Kansas City Royals",
+    "aruns": 3,
+    "hruns": 2,
+    "ahits": 6,
+    "hhits": 7,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Mets",
+    "home": "Colorado Rockies",
+    "aruns": 8,
+    "hruns": 10,
+    "ahits": 13,
+    "hhits": 12,
+    "aerrors": 2,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Milwaukee Brewers",
     "home": "Pittsburgh Pirates",
     "aruns": "",
     "hruns": "",
@@ -2859,244 +3829,112 @@ let scoresJun15= [
     "hhits": "",
     "aerrors": "",
     "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Tampa Bay Rays",
-    "home": "New York Yankees",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Miami Marlins",
-    "home": "Baltimore Orioles",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Washington Nationals",
-    "home": "Toronto Blue Jays",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Minnesota Twins",
-    "home": "Cleveland Indians",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "San Diego Padres",
-    "home": "Atlanta Braves",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Colorado Rockies",
-    "home": "Texas Rangers",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Detroit Tigers",
-    "home": "Chicago White Sox",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Philadelphia Phillies",
-    "home": "Milwaukee Brewers",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Chicago Cubs",
-    "home": "St. Louis Cardinals",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Houston Astros",
-    "home": "Kansas City Royals",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Los Angeles Angels",
-    "home": "Oakland Athletics",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "New York Mets",
-    "home": "Arizona Diamondbacks",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Boston Red Sox",
-    "home": "Seattle Mariners",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "San Francisco Giants",
-    "home": "Los Angeles Dodgers",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "inning": "PPD"
   }
 ];
 
-let scoresJun16= [
+let scoresJun21 = [
   {
-    "away": "Cincinnati Reds",
+    "away": "Seattle Mariners",
+    "home": "New York Yankees",
+    "aruns": 3,
+    "hruns": 4,
+    "ahits": 9,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "Minnesota Twins",
+    "aruns": 9,
+    "hruns": 2,
+    "ahits": 16,
+    "hhits": 4,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Mets",
+    "home": "Colorado Rockies",
+    "aruns": 4,
+    "hruns": 6,
+    "ahits": 11,
+    "hhits": 9,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Arizona Diamondbacks",
     "home": "Pittsburgh Pirates",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "aruns": 9,
+    "hruns": 3,
+    "ahits": 10,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
   },
   {
-    "away": "Tampa Bay Rays",
-    "home": "New York Yankees",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "away": "Baltimore Orioles",
+    "home": "Washington Nationals",
+    "aruns": 2,
+    "hruns": 4,
+    "ahits": 5,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
-    "away": "Miami Marlins",
-    "home": "Baltimore Orioles",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "away": "Chicago Cubs",
+    "home": "Cincinnati Reds",
+    "aruns": 2,
+    "hruns": 6,
+    "ahits": 8,
+    "hhits": 7,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
-    "away": "Washington Nationals",
-    "home": "Toronto Blue Jays",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "away": "St. Louis Cardinals",
+    "home": "Milwaukee Brewers",
+    "aruns": 3,
+    "hruns": 11,
+    "ahits": 7,
+    "hhits": 12,
+    "aerrors": 4,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
-    "away": "Minnesota Twins",
-    "home": "Cleveland Indians",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "away": "Toronto Blue Jays",
+    "home": "Los Angeles Angels",
+    "aruns": 5,
+    "hruns": 8,
+    "ahits": 9,
+    "hhits": 9,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
     "away": "San Diego Padres",
-    "home": "Atlanta Braves",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "home": "San Francisco Giants",
+    "aruns": 0,
+    "hruns": 3,
+    "ahits": 4,
+    "hhits": 6,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
-    "away": "Colorado Rockies",
-    "home": "Texas Rangers",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Detroit Tigers",
+    "away": "Oakland Athletics",
     "home": "Chicago White Sox",
     "aruns": "",
     "hruns": "",
@@ -3104,268 +3942,358 @@ let scoresJun16= [
     "hhits": "",
     "aerrors": "",
     "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Philadelphia Phillies",
-    "home": "Milwaukee Brewers",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Chicago Cubs",
-    "home": "St. Louis Cardinals",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Houston Astros",
-    "home": "Kansas City Royals",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Los Angeles Angels",
-    "home": "Oakland Athletics",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "New York Mets",
-    "home": "Arizona Diamondbacks",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Boston Red Sox",
-    "home": "Seattle Mariners",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "San Francisco Giants",
-    "home": "Los Angeles Dodgers",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "inning": "PPD"
   }
 ];
 
-let scoresJun17= [
+let scoresJun22 = [
   {
-    "away": "Cincinnati Reds",
+    "away": "Oakland Athletics",
+    "home": "Chicago White Sox",
+    "aruns": 11,
+    "hruns": 2,
+    "ahits": 11,
+    "hhits": 8,
+    "aerrors": 1,
+    "herrors": 3,
+    "inning": "Final"
+  },
+  {
+    "away": "Oakland Athletics",
+    "home": "Chicago White Sox",
+    "aruns": 4,
+    "hruns": 6,
+    "ahits": 8,
+    "hhits": 10,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Arizona Diamondbacks",
     "home": "Pittsburgh Pirates",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Tampa Bay Rays",
-    "home": "New York Yankees",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Miami Marlins",
-    "home": "Baltimore Orioles",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Washington Nationals",
-    "home": "Toronto Blue Jays",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Minnesota Twins",
-    "home": "Cleveland Indians",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "San Diego Padres",
-    "home": "Atlanta Braves",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Colorado Rockies",
-    "home": "Texas Rangers",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
-  },
-  {
-    "away": "Detroit Tigers",
-    "home": "Chicago White Sox",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "aruns": 2,
+    "hruns": 1,
+    "ahits": 8,
+    "hhits": 4,
+    "aerrors": 1,
+    "herrors": 3,
+    "inning": "Final"
   },
   {
     "away": "Philadelphia Phillies",
-    "home": "Milwaukee Brewers",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "home": "Washington Nationals",
+    "aruns": 12,
+    "hruns": 2,
+    "ahits": 15,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Detroit Tigers",
+    "home": "Cleveland Indians",
+    "aruns": 0,
+    "hruns": 10,
+    "ahits": 5,
+    "hhits": 8,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Yankees",
+    "home": "Tampa Bay Rays",
+    "aruns": 1,
+    "hruns": 2,
+    "ahits": 5,
+    "hhits": 10,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Seattle Mariners",
+    "home": "Boston Red Sox",
+    "aruns": 10,
+    "hruns": 14,
+    "ahits": 14,
+    "hhits": 20,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Los Angeles Dodgers",
+    "home": "New York Mets",
+    "aruns": 5,
+    "hruns": 2,
+    "ahits": 6,
+    "hhits": 8,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
     "away": "Chicago Cubs",
-    "home": "St. Louis Cardinals",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "home": "Cincinnati Reds",
+    "aruns": 3,
+    "hruns": 6,
+    "ahits": 4,
+    "hhits": 12,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
   },
   {
-    "away": "Houston Astros",
-    "home": "Kansas City Royals",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "away": "Baltimore Orioles",
+    "home": "Atlanta Braves",
+    "aruns": 10,
+    "hruns": 7,
+    "ahits": 15,
+    "hhits": 14,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
-    "away": "Los Angeles Angels",
-    "home": "Oakland Athletics",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "away": "Kansas City Royals",
+    "home": "Houston Astros",
+    "aruns": 1,
+    "hruns": 0,
+    "ahits": 9,
+    "hhits": 2,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
-    "away": "New York Mets",
-    "home": "Arizona Diamondbacks",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "away": "St. Louis Cardinals",
+    "home": "Milwaukee Brewers",
+    "aruns": 1,
+    "hruns": 2,
+    "ahits": 3,
+    "hhits": 3,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
   },
   {
-    "away": "Boston Red Sox",
-    "home": "Seattle Mariners",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "away": "Texas Rangers",
+    "home": "Minnesota Twins",
+    "aruns": 8,
+    "hruns": 1,
+    "ahits": 11,
+    "hhits": 3,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
-    "away": "San Francisco Giants",
-    "home": "Los Angeles Dodgers",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "away": "Miami Marlins",
+    "home": "Colorado Rockies",
+    "aruns": 3,
+    "hruns": 11,
+    "ahits": 10,
+    "hhits": 15,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Toronto Blue Jays",
+    "home": "Los Angeles Angels",
+    "aruns": 1,
+    "hruns": 2,
+    "ahits": 9,
+    "hhits": 3,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "San Francisco Giants",
+    "aruns": 6,
+    "hruns": 2,
+    "ahits": 12,
+    "hhits": 5,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
   }
 ];
 
-let scoresJun18= [];
+let scoresJun23 = [
+  {
+    "away": "Oakland Athletics",
+    "home": "Chicago White Sox",
+    "aruns": 7,
+    "hruns": 6,
+    "ahits": 9,
+    "hhits": 8,
+    "aerrors": 2,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Texas Rangers",
+    "home": "Minnesota Twins",
+    "aruns": 9,
+    "hruns": 6,
+    "ahits": 10,
+    "hhits": 11,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Miami Marlins",
+    "home": "Colorado Rockies",
+    "aruns": 6,
+    "hruns": 2,
+    "ahits": 9,
+    "hhits": 4,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Arizona Diamondbacks",
+    "home": "Pittsburgh Pirates",
+    "aruns": 7,
+    "hruns": 2,
+    "ahits": 10,
+    "hhits": 7,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Philadelphia Phillies",
+    "home": "Washington Nationals",
+    "aruns": 5,
+    "hruns": 3,
+    "ahits": 10,
+    "hhits": 6,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "San Francisco Giants",
+    "aruns": 3,
+    "hruns": 5,
+    "ahits": 11,
+    "hhits": 8,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Baltimore Orioles",
+    "home": "Atlanta Braves",
+    "aruns": 7,
+    "hruns": 5,
+    "ahits": 7,
+    "hhits": 12,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Chicago Cubs",
+    "home": "Cincinnati Reds",
+    "aruns": 2,
+    "hruns": 11,
+    "ahits": 6,
+    "hhits": 11,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Yankees",
+    "home": "Tampa Bay Rays",
+    "aruns": 0,
+    "hruns": 4,
+    "ahits": 4,
+    "hhits": 9,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "St. Louis Cardinals",
+    "home": "Milwaukee Brewers",
+    "aruns": 3,
+    "hruns": 2,
+    "ahits": 4,
+    "hhits": 6,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Detroit Tigers",
+    "home": "Cleveland Indians",
+    "aruns": 1,
+    "hruns": 4,
+    "ahits": 5,
+    "hhits": 6,
+    "aerrors": 3,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Kansas City Royals",
+    "home": "Houston Astros",
+    "aruns": 3,
+    "hruns": 4,
+    "ahits": 5,
+    "hhits": 8,
+    "aerrors": 2,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Los Angeles Dodgers",
+    "home": "New York Mets",
+    "aruns": 8,
+    "hruns": 3,
+    "ahits": 9,
+    "hhits": 10,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Seattle Mariners",
+    "home": "Boston Red Sox",
+    "aruns": 7,
+    "hruns": 2,
+    "ahits": 14,
+    "hhits": 6,
+    "aerrors": 2,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Toronto Blue Jays",
+    "home": "Los Angeles Angels",
+    "aruns": 4,
+    "hruns": 1,
+    "ahits": 8,
+    "hhits": 9,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  }
+];
 
-let scoresJun19= [];
-
-let scoresJun20= [];
-
-let scoresJun21= [];
-
-let scoresJun22= [];
-
-let scoresJun23= [];
-
-let scoresJun24= [
+let scoresJun24 = [
   {
     "away": "Seattle Mariners",
     "home": "Boston Red Sox",
@@ -3533,7 +4461,7 @@ let scoresJun24= [
   }
 ];
 
-let scoresJun25= [
+let scoresJun25 = [
   {
     "away": "Oakland Athletics",
     "home": "Detroit Tigers",
@@ -3668,7 +4596,7 @@ let scoresJun25= [
   }
 ];
 
-let scoresJun26= [
+let scoresJun26 = [
   {
     "away": "Washington Nationals",
     "home": "Tampa Bay Rays",
@@ -3836,7 +4764,7 @@ let scoresJun26= [
   }
 ];
 
-let scoresJun27= [
+let scoresJun27 = [
   {
     "away": "Cincinnati Reds",
     "home": "Atlanta Braves",
@@ -3993,7 +4921,7 @@ let scoresJun27= [
   }
 ];
 
-let scoresJun28= [
+let scoresJun28 = [
   {
     "away": "Arizona Diamondbacks",
     "home": "Miami Marlins",
@@ -4106,7 +5034,7 @@ let scoresJun28= [
   }
 ];
 
-let scoresJun29= [
+let scoresJun29 = [
   {
     "away": "Minnesota Twins",
     "home": "Chicago Cubs",
@@ -4274,43 +5202,178 @@ let scoresJun29= [
   }
 ];
 
-let scoresJun30= [
+let scoresJun30 = [
   {
     "away": "Minnesota Twins",
     "home": "Chicago Cubs",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "aruns": 9,
+    "hruns": 14,
+    "ahits": 11,
+    "hhits": 20,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
     "away": "Los Angeles Angels",
     "home": "Baltimore Orioles",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "aruns": 6,
+    "hruns": 2,
+    "ahits": 7,
+    "hhits": 6,
+    "aerrors": 3,
+    "herrors": 0,
+    "inning": "Final"
   },
   {
     "away": "Washington Nationals",
     "home": "Philadelphia Phillies",
-    "aruns": "",
-    "hruns": "",
-    "ahits": "",
-    "hhits": "",
-    "aerrors": "",
-    "herrors": "",
-    "inning": ""
+    "aruns": 2,
+    "hruns": 3,
+    "ahits": 8,
+    "hhits": 7,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
   },
   {
     "away": "Boston Red Sox",
     "home": "New York Yankees",
+    "aruns": 11,
+    "hruns": 0,
+    "ahits": 17,
+    "hhits": 2,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Detroit Tigers",
+    "home": "Toronto Blue Jays",
+    "aruns": 3,
+    "hruns": 4,
+    "ahits": 7,
+    "hhits": 7,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Houston Astros",
+    "home": "Tampa Bay Rays",
+    "aruns": 2,
+    "hruns": 5,
+    "ahits": 5,
+    "hhits": 10,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Milwaukee Brewers",
+    "home": "Cincinnati Reds",
+    "aruns": 3,
+    "hruns": 12,
+    "ahits": 6,
+    "hhits": 15,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "New York Mets",
+    "home": "Miami Marlins",
+    "aruns": 2,
+    "hruns": 5,
+    "ahits": 6,
+    "hhits": 9,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Texas Rangers",
+    "aruns": 4,
+    "hruns": 13,
+    "ahits": 12,
+    "hhits": 13,
+    "aerrors": 2,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Atlanta Braves",
+    "home": "St. Louis Cardinals",
+    "aruns": 11,
+    "hruns": 4,
+    "ahits": 15,
+    "hhits": 9,
+    "aerrors": 1,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Arizona Diamondbacks",
+    "aruns": 7,
+    "hruns": 0,
+    "ahits": 12,
+    "hhits": 7,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Cleveland Indians",
+    "home": "Oakland Athletics",
+    "aruns": 2,
+    "hruns": 7,
+    "ahits": 3,
+    "hhits": 8,
+    "aerrors": 1,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Colorado Rockies",
+    "home": "Los Angeles Dodgers",
+    "aruns": 3,
+    "hruns": 1,
+    "ahits": 6,
+    "hhits": 3,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  },
+  {
+    "away": "Kansas City Royals",
+    "home": "Seattle Mariners",
+    "aruns": 4,
+    "hruns": 6,
+    "ahits": 9,
+    "hhits": 14,
+    "aerrors": 0,
+    "herrors": 1,
+    "inning": "Final"
+  },
+  {
+    "away": "Pittsburgh Pirates",
+    "home": "San Diego Padres",
+    "aruns": 3,
+    "hruns": 4,
+    "ahits": 7,
+    "hhits": 5,
+    "aerrors": 0,
+    "herrors": 0,
+    "inning": "Final"
+  }
+];
+
+let scoresJul1 = [
+  {
+    "away": "Los Angeles Angels",
+    "home": "Baltimore Orioles",
     "aruns": "",
     "hruns": "",
     "ahits": "",
@@ -4364,8 +5427,8 @@ let scoresJun30= [
     "inning": ""
   },
   {
-    "away": "Chicago White Sox",
-    "home": "Texas Rangers",
+    "away": "Washington Nationals",
+    "home": "Philadelphia Phillies",
     "aruns": "",
     "hruns": "",
     "ahits": "",
@@ -4386,8 +5449,19 @@ let scoresJun30= [
     "inning": ""
   },
   {
-    "away": "San Francisco Giants",
-    "home": "Arizona Diamondbacks",
+    "away": "Minnesota Twins",
+    "home": "Chicago Cubs",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Texas Rangers",
     "aruns": "",
     "hruns": "",
     "ahits": "",
@@ -4432,6 +5506,904 @@ let scoresJun30= [
   {
     "away": "Pittsburgh Pirates",
     "home": "San Diego Padres",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Arizona Diamondbacks",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "New York Yankees",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  }
+];
+
+let scoresJul2 = [
+  {
+    "away": "Detroit Tigers",
+    "home": "Toronto Blue Jays",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Atlanta Braves",
+    "home": "New York Yankees",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "Washington Nationals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Cincinnati Reds",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "Miami Marlins",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Minnesota Twins",
+    "home": "Milwaukee Brewers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Cleveland Indians",
+    "home": "Kansas City Royals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Colorado Rockies",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "St. Louis Cardinals",
+    "home": "Arizona Diamondbacks",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Pittsburgh Pirates",
+    "home": "Los Angeles Dodgers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  }
+];
+
+let scoresJul3 = [
+  {
+    "away": "Detroit Tigers",
+    "home": "Chicago Cubs",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Minnesota Twins",
+    "home": "Milwaukee Brewers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "Washington Nationals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Atlanta Braves",
+    "home": "New York Yankees",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Baltimore Orioles",
+    "home": "Philadelphia Phillies",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "New York Mets",
+    "home": "Toronto Blue Jays",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Cincinnati Reds",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "Miami Marlins",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Houston Astros",
+    "home": "Texas Rangers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Colorado Rockies",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Cleveland Indians",
+    "home": "Kansas City Royals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "Oakland Athletics",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "St. Louis Cardinals",
+    "home": "Arizona Diamondbacks",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Los Angeles Angels",
+    "home": "Seattle Mariners",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Pittsburgh Pirates",
+    "home": "Los Angeles Dodgers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  }
+];
+
+let scoresJul4 = [
+  {
+    "away": "Boston Red Sox",
+    "home": "Washington Nationals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Atlanta Braves",
+    "home": "New York Yankees",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "Miami Marlins",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Detroit Tigers",
+    "home": "Chicago Cubs",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Baltimore Orioles",
+    "home": "Philadelphia Phillies",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "Oakland Athletics",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Los Angeles Angels",
+    "home": "Seattle Mariners",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Minnesota Twins",
+    "home": "Milwaukee Brewers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Houston Astros",
+    "home": "Texas Rangers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "New York Mets",
+    "home": "Toronto Blue Jays",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Cincinnati Reds",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Pittsburgh Pirates",
+    "home": "Los Angeles Dodgers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Francisco Giants",
+    "home": "Colorado Rockies",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Cleveland Indians",
+    "home": "Kansas City Royals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "St. Louis Cardinals",
+    "home": "Arizona Diamondbacks",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  }
+];
+
+let scoresJul5 = [
+  {
+    "away": "Miami Marlins",
+    "home": "Washington Nationals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Texas Rangers",
+    "home": "Detroit Tigers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Atlanta Braves",
+    "home": "Milwaukee Brewers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Baltimore Orioles",
+    "home": "Minnesota Twins",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Houston Astros",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "Arizona Diamondbacks",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Los Angeles Angels",
+    "home": "Seattle Mariners",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "St. Louis Cardinals",
+    "home": "San Francisco Giants",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  }
+];
+
+let scoresJul6 = [
+  {
+    "away": "Cincinnati Reds",
+    "home": "Chicago Cubs",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Philadelphia Phillies",
+    "home": "Pittsburgh Pirates",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Miami Marlins",
+    "home": "Washington Nationals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "New York Yankees",
+    "home": "Toronto Blue Jays",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Oakland Athletics",
+    "home": "Cleveland Indians",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "New York Mets",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Texas Rangers",
+    "home": "Detroit Tigers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Atlanta Braves",
+    "home": "Milwaukee Brewers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Baltimore Orioles",
+    "home": "Minnesota Twins",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Houston Astros",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "Kansas City Royals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "Arizona Diamondbacks",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Los Angeles Dodgers",
+    "home": "Los Angeles Angels",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Colorado Rockies",
+    "home": "Seattle Mariners",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "St. Louis Cardinals",
+    "home": "San Francisco Giants",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  }
+];
+
+let scoresJul7 = [
+  {
+    "away": "Baltimore Orioles",
+    "home": "Minnesota Twins",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Cincinnati Reds",
+    "home": "Chicago Cubs",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Philadelphia Phillies",
+    "home": "Pittsburgh Pirates",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "St. Louis Cardinals",
+    "home": "San Francisco Giants",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "New York Yankees",
+    "home": "Toronto Blue Jays",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Atlanta Braves",
+    "home": "Milwaukee Brewers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Chicago White Sox",
+    "home": "Houston Astros",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Colorado Rockies",
+    "home": "Seattle Mariners",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Oakland Athletics",
+    "home": "Cleveland Indians",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Tampa Bay Rays",
+    "home": "New York Mets",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Texas Rangers",
+    "home": "Detroit Tigers",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Boston Red Sox",
+    "home": "Kansas City Royals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Los Angeles Dodgers",
+    "home": "Los Angeles Angels",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "Miami Marlins",
+    "home": "Washington Nationals",
+    "aruns": "",
+    "hruns": "",
+    "ahits": "",
+    "hhits": "",
+    "aerrors": "",
+    "herrors": "",
+    "inning": ""
+  },
+  {
+    "away": "San Diego Padres",
+    "home": "Arizona Diamondbacks",
     "aruns": "",
     "hruns": "",
     "ahits": "",
